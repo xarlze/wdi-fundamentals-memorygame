@@ -43,6 +43,23 @@ main{
 	margin: 35px auto;
 }
 
+button{
+	padding: 12px;
+	background-color: #3F88C5;
+	border-color: transparent;
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: raleway;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin-top: 30px;
+}
+
+button:hover {
+	background-color: #00A6B3;
+}
+
 h3{
 	letter-spacing: 1px;
 	font-weight: 600;
@@ -65,12 +82,21 @@ aside{
 	height: 33%;
 	width: 160px;
 	position: fixed;
-	top: 270px;
+	top: 280px;
 	right: 0;
 	background-color: rgba(76, 84, 84, 0.5);
 	overflow-x: hidden;
 	padding-top: 20px;
 	line-height: 40px;
+}
+
+#score{
+	left: 0;
+}
+
+#scoreNum{
+	font-size: 50px;
+	color: white;
 }
 
 h4{
